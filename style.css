@@ -1,0 +1,144 @@
+html{
+    font-family: 'Quintessential';
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+a{
+    color: aqua;
+}
+
+.personal-links a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    font-family: 'Rowdies';
+}
+
+nav ul li{
+    margin-left: 50px;
+    top: 0;
+    left: 0;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.profile-image{
+    border-radius: 30px;
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+}
+
+.coursework-tag{
+    background-color: lightgreen;
+    color: green;
+    font-family: 'Rowdies';
+}
+
+.personal-tag{
+    background-color: skyblue;
+    color: blue;
+    font-family: 'Rowdies';
+}
+
+#summary-description{
+    font-family: 'Rowdies';
+}
+
+.bc1{
+    color: maroon;
+}
+
+.bc2{
+    color: gold;
+}
+
+h1{
+    font-family: 'Rowdies', cursive;
+    color: maroon;
+}
+
+.caption{
+    font-family: 'Rowdies', cursive;
+    font-size: 12px;
+}
+
+.functions{
+    font-family: 'Rowdies';
+    list-style-type: disc;
+}
+
+#and{
+    font-family: 'Quintessential', cursive;
+}
+
+.row .col-4{
+    font-family: 'Rowdies';
+}
+
+.project-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#name{
+    margin-left: 30px;
+}
+
+.search input{
+    width : 100%;
+    margin: 0.5rem 0 0.5rem 0;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border: 1px solid #eeeeee;
+}
+
+[class*="col-"]{
+    flex-basis: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .col-1 {flex-basis: 8.33%;}
+    .col-2 {flex-basis: 16.66%;}
+    .col-3 {flex-basis: 25%;}
+    .col-4 {flex-basis: 33.33%;}
+    .col-5 {flex-basis: 41.66%;}
+    .col-6 {flex-basis: 50%;}
+    .col-7 {flex-basis: 58.33%;}
+    .col-8 {flex-basis: 66.66%;}
+    .col-9 {flex-basis: 75%;}
+    .col-10 {flex-basis: 83.33%;}
+    .col-11 {flex-basis: 91.66%;}
+    .col-12 {flex-basis: 100%;}
+}

@@ -1,0 +1,53 @@
+{
+    "about":{
+        "name"  : "Kyle Viti",
+        "title" : "Computer Science Student @ Boston College",
+        "photo" : "assets/headshot.jpg" 
+    },
+    "news":[
+        {
+            "title" : "Enrolled in Web Application Development with Professor Kim",
+            "date"  : "January 2022"
+        },
+        {
+            "title" : "Became a <span class=\"bc1\"><strong>Student Leader</strong></span> and <span class=\"bc2\"><strong>Conductor</strong></span> for the Boston College \"Screaming Eagles\" Marching Band",
+            "date"  : "January 2019"
+        },
+        {
+            "title" : "Traveled to Dallas, Texas for the <strong>ServPro&reg; First Responders Bowl</strong>"   ,
+            "date"  : "December 2018"
+        },
+        {
+            "title" : "Joined the Boston College \"Screaming Eagles\" Marching Band, playing the baritone horn.",
+            "date"  : "August 2018"
+        },
+        {
+            "title" : "Graduated fifth in his class from Toll Gate High School",
+            "date"  : "May 2018"
+        }
+    ],
+    "projects":[
+        {
+            "id" : "command-line",
+            "title" : "Command Line (C)",
+            "header" : "Functional Command Line",
+            "caption" : "Demonstration of the shell executing a command to list to contents of a directory, as well as the associated permissions with each result.",
+            "authors" : "Kyle Viti, Maya Rao",
+            "photo" : "assets/command-shell-pic.png",
+            "tags" : "Coursework",
+            "description" : "This project was done as part of Professor Rafael Ubal Tena's <strong>Operating Systems</strong> course at Boston College. It interacts directly with the user's UNIX operating system in order to execute commands as they would be written in a UNIX command shell.<ul class=\"functions\"><li><strong>input and output redirection</strong></li><li><strong>background execution</strong></li><li><strong>command piping</strong> <span id=\"and\">and</span></li><li><strong>forking processes</strong></li></ul>among other features.",
+            "repo" : "https://github.com/elyK0924/project"
+        },
+        {
+            "id" : "photo-to-pdf",
+            "title" : "Photo-to-PDF Converter (Python)",
+            "header" : "Photo-to-PDF Converter",
+            "caption" : "The applet that appears upon launching the Python application.",
+            "authors" : "Kyle Viti",
+            "photo" : "assets/photo-to-pdf.jpg",
+            "tags" : "Personal",
+            "description" : "This application was created to solve a specific problem: I had pictures that I wanted to store digitally, and all within one file. Thus, this Photos-to-PDF application was born! This implementation takes advantage of a couple of Python's libraries: <ul><li><strong>Pillow:</strong> used for converting the image file (.png, .jpg, etc.) into a PDF file.</li><li><strong>Tkinter:</strong> used to create the UI and applet to perform conversions.</li></ul>",
+            "repo" : "https://github.com/elyK0924/photos-to-pdf-converter"
+        }
+    ]
+}
